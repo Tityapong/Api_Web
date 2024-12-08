@@ -1,35 +1,42 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "role": "admin",
-        "email": "admin@example.com",
-        "password": "admin123"
-      },
-      {
-        "id": 2,
-        "role": "supplier",
-        "email": "dev@example.com",
-        "password": "dev123",
-        "profileComplete": false
-      },
-      {
-        "id": 3,
-        "role": "user",
-        "email": "company@example.com",
-        "password": "company123"
-      },
-      {
-        "email": "newuser@example.com",
-        "password": "newuser123",
-        "role": "user",
-        "id": 4
-      },
-      {
-        "email": "pong@gmail.com",
-        "password": "pong2233",
-        "role": "user",
-        "id": 5
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "role": "admin",
+      "email": "admin@example.com",
+      "password": "admin123"
+    },
+    {
+      "id": 2,
+      "role": "supplier",
+      "email": "dev@example.com",
+      "password": "dev123",
+      "location": "Phnom Penh"
+      
+    },
+    {
+      "id": 3,
+      "role": "supplier",
+      "email": "company@example.com",
+      "password": "company123",
+      "location": "Phnom Penh"
+
+    },
+    {
+      "email": "newuser@example.com",
+      "password": "newuser123",
+      "role": "user",
+      "id": 4,
+      "location": "Phnom Penh"
+
+    },
+    {
+      "email": "pong@gmail.com",
+      "password": "pong2233",
+      "role": "user",
+      "id": 5,
+      "location": "Phnom Penh"
+
+    }
+  ]
+}
