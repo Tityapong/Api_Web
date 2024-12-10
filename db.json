@@ -12,7 +12,6 @@
       "email": "dev@example.com",
       "password": "dev123",
       "location": "Phnom Penh"
-      
     },
     {
       "id": 3,
@@ -20,7 +19,6 @@
       "email": "company@example.com",
       "password": "company123",
       "location": "Phnom Penh"
-
     },
     {
       "email": "newuser@example.com",
@@ -28,7 +26,6 @@
       "role": "user",
       "id": 4,
       "location": "Phnom Penh"
-
     },
     {
       "email": "pong@gmail.com",
@@ -36,7 +33,83 @@
       "role": "user",
       "id": 5,
       "location": "Phnom Penh"
-
+    },
+    {
+      "email": "pong@gmail.com",
+      "password": "pong2233",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "email": "pong@gmail.com",
+      "password": "pong2233",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "email": "pong@gmail.com",
+      "password": "pong2233",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "email": "exampleuser@example.com",
+      "password": "user123",
+      "name": "John Doe",
+      "phone": "0123456789",
+      "location": "Phnom Penh",
+      "role": "user"
     }
-  ]
-}
+  ],
+  
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "John's Catering",
+        "email": "john@example.com",
+        "services": [
+          {
+            "id": 101,
+            "title": "Wedding Catering",
+            "category": "Catering",
+            "image": "https://example.com/images/wedding-catering.jpg",
+            "price": 1200,
+            "description": "Premium wedding catering service with a variety of menu options."
+          },
+          {
+            "id": 102,
+            "title": "Birthday Catering",
+            "category": "Catering",
+            "image": "https://example.com/images/birthday-catering.jpg",
+            "price": 900,
+            "description": "Special catering service for birthday parties with customizable menus."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Event Pro Services",
+        "email": "eventpro@example.com",
+        "services": [
+          {
+            "id": 201,
+            "title": "Corporate Lunch",
+            "category": "Corporate Events",
+            "image": "https://example.com/images/corporate-lunch.jpg",
+            "price": 800,
+            "description": "Professional corporate lunch packages tailored to your needs."
+          },
+          {
+            "id": 202,
+            "title": "Conference Catering",
+            "category": "Corporate Events",
+            "image": "https://example.com/images/conference-catering.jpg",
+            "price": 1500,
+            "description": "High-quality catering service for conferences and seminars."
+          }
+        ]
+      }
+    ]
+  }
+  

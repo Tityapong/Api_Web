@@ -1,5 +1,5 @@
-const jwt = require('jsonwebtoken');
 const { readDatabase, writeDatabase } = require('../utils/dbUtils');
+const { generateToken } = require('../utils/authUtils');
 
 // Controller: Admin login
 const loginAdmin = (req, res) => {
@@ -19,11 +19,7 @@ const loginAdmin = (req, res) => {
     }
 
     // Generate JWT token
-    const token = jwt.sign(
-        { id: user.id, role: user.role, email: user.email },
-        'your-secret-key', // Replace with a secure secret key
-        { expiresIn: '1h' } // Token expiration time
-    );
+    const token = generateToken(user); // Invoke the function to generate the token
 
     res.status(200).json({
         message: 'Login successful',
